@@ -1,0 +1,31 @@
+.footer-container {
+    background: #0067A3;
+    width: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.footer-counters {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-column-gap: 15px;
+}
+
+@media (max-width: 450px) {
+    .footer-container {
+        display: none;
+    }    
+}
+
+@media (max-width: 650px) {
+    .done-by-footer {
+        display: none;
+    }
+}

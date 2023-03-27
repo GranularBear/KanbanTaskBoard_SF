@@ -1,0 +1,41 @@
+html {
+    overflow: hidden;
+    overflow-x: initial;
+}
+
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    box-sizing: border-box;
+    background: #0079bf;
+}
+
+main {
+    margin: 0;
+    height: calc(100% - (60px * 2));
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 450px) {
+    main {
+        height: calc(100% - 60px);
+    }
+}

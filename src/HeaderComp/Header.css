@@ -1,0 +1,29 @@
+.header-container {
+    background: #0067A3;
+    width: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    outline: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: white;
+}
+
+@media (max-width: 450px) {
+    .header-container {
+        background: transparent;
+        justify-content: flex-end;
+    }
+    
+    .header-title {
+        display:none;
+    }
+}

@@ -1,0 +1,40 @@
+.tasks-wrapper {
+    height: inherit;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.tasks-wrapper::-webkit-scrollbar {
+    width: 12px;
+    background-color: white;
+    border-radius: 10px;
+    background-clip: padding-box;
+}
+
+.tasks-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #CBCBCB;
+}
+
+@media (max-width: 712px) {
+    .tasks-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .tasks-wrapper::-webkit-scrollbar {
+        width: 10px;
+    } 
+}
+
+@media (any-pointer: coarse) {
+    .tasks-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+}

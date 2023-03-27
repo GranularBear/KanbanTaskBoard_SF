@@ -1,0 +1,63 @@
+.profile {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    margin-right: 6px;
+}
+
+.sub-menu-wrap {
+    max-width: 140px;
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    background: white;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.sub-menu-options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sub-menu-options-item {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.sub-menu-options-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.sub-menu-options-item:hover {
+    font-weight: 600;
+}
+
+.sub-menu-arrow {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: fit-content;
+    left: 65%;
+    top: 3px;
+}

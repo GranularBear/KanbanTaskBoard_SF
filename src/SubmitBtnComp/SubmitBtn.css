@@ -1,0 +1,15 @@
+.submit-btn {
+    margin: 0;
+    padding: 5px 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    background-color: #0079BF;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+}

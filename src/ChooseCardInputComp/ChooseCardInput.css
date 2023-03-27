@@ -1,0 +1,10 @@
+.submit-form {
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    align-items: center;
+    grid-row-gap: 15px;
+}
+
+.submit-form.disabled {
+    display: none;
+}

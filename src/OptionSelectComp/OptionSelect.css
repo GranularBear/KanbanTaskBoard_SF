@@ -1,0 +1,30 @@
+.select-form {
+    appearance:  ;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    padding: 7px;
+    max-width: 282px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.select-form option {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 7px;
+    max-width: 282px;
+}
+
+.select-form option:hover {
+    width: 282px;
+}
+
+
